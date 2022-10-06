@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo - Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/vendor/all.min.css" />
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <section class="offcanvas offcanvas-start" tabindex="-1" id="mobile-nav">
+      <ul class="navbar-nav gap-3 p-5 overflow-auto">
+        <li class="nav-item">
+          <a
+            class="nav-link fw-semibold text-uppercase active"
+            aria-current="page"
+            href="#"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold text-uppercase" href="price.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold text-uppercase" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold text-uppercase" href="portfolio.html">portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold text-uppercase" href="price.html">pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold text-uppercase" href="#">blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-semibold text-uppercase" href="#">contact</a>
+        </li>
+      </ul>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/imgs/logo.webp" alt="logo" />
+        </a>
+
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobile-nav"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item">
+              <a
+                class="nav-link fw-semibold text-uppercase active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-uppercase" href="about.html"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-uppercase" href="services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-uppercase" href="portfolio.html"
+                >portfolio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-uppercase" href="price.html"
+                >pricing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-uppercase" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold text-uppercase" href="#"
+                >contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Home Header -->
+      <header class="section bg-light">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <section>
+                <h3 class="section-title-sm">this is me</h3>
+                <h1 class="text-uppercase my-4 display-3 fw-semibold">
+                  PHILIP GILBERT
+                </h1>
+                <p class="text-sm text-black-50">
+                  You will begin to realise why this exercise is called the
+                  Dickens Pattern with reference to the ghost showing Scrooge
+                  some different futures.
+                </p>
+                <a href="#" class="btn btn-primary">discover now</a>
+              </section>
+            </div>
+            <div class="col-md-6">
+              <section>
+                <img src="assets/imgs/header-img.webp" alt="header-img" />
+              </section>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- About Me Section -->
+      <section class="section">
+        <div class="container">
+          <div class="row align-items-center gx-md-5 gy-4 gy-md-0">
+            <div class="col-md-6">
+              <section>
+                <img src="assets/imgs/about-me.webp" alt="about-me" />
+              </section>
+            </div>
+            <div class="col-md-6">
+              <section class="vstack gap-2">
+                <h3 class="section-title-sm">about me</h3>
+                <h2 class="section-title">personal details</h2>
+                <p class="text-sm text-black-50">
+                  Here, I focus on a range of items and features that we use in
+                  life without giving them a second thought. such as Coca Cola.
+                  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                  minim veniam, quis nostrud exercitation ullamco.
+                </p>
+                <div>
+                  <a href="#" class="btn btn-primary">view full details</a>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="section text-center">
+        <div class="container vstack gap-5">
+          <div class="col-9 mx-auto">
+            <h2 class="section-title">My Offered Services</h2>
+            <p class="text-sm text-black-50">
+              At about this time of year, some months after New Year’s
+              resolutions have been made and kept, or made and neglected.
+            </p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-5 gx-md-5">
+            <div class="col">
+              <article
+                class="service vstack gap-3 max-w col-8 col-md-12 mx-auto"
+              >
+                <h4 class="vstack gap-3 text-capitalize fw-semibold">
+                  <i class="fa-solid fa-chart-pie fa-xl transition-colors"></i>
+                  <a class="transition-colors" href="#">web design</a>
+                </h4>
+                <p class="text-sm text-black-50">
+                  “It is not because things are difficult that we do not dare;
+                  it is because we do not dare that they are difficult.”
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <article
+                class="service vstack gap-3 max-w col-8 col-md-12 mx-auto"
+              >
+                <h4 class="vstack gap-3 text-capitalize fw-semibold">
+                  <i class="fa-solid fa-desktop fa-xl"></i>
+                  <a class="transition-colors" href="#">web development</a>
+                </h4>
+                <p class="text-sm text-black-50">
+                  “It is not because things are difficult that we do not dare;
+                  it is because we do not dare that they are difficult.”
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <article
+                class="service vstack gap-3 max-w col-8 col-md-12 mx-auto"
+              >
+                <h4 class="vstack gap-3 text-capitalize fw-semibold">
+                  <i class="fa-solid fa-camera fa-xl"></i>
+                  <a class="transition-colors" href="#">photography</a>
+                </h4>
+                <p class="text-sm text-black-50">
+                  “It is not because things are difficult that we do not dare;
+                  it is because we do not dare that they are difficult.”
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <article
+                class="service vstack gap-3 max-w col-8 col-md-12 mx-auto"
+              >
+                <h4 class="vstack gap-3 text-capitalize fw-semibold">
+                  <i class="fa-regular fa-image fa-xl"></i>
+                  <a class="transition-colors" href="#">clipping path</a>
+                </h4>
+                <p class="text-sm text-black-50">
+                  “It is not because things are difficult that we do not dare;
+                  it is because we do not dare that they are difficult.”
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <article
+                class="service vstack gap-3 max-w col-8 col-md-12 mx-auto"
+              >
+                <h4 class="vstack gap-3 text-capitalize fw-semibold">
+                  <i class="fa-solid fa-mobile-screen-button fa-xl"></i>
+                  <a class="transition-colors" href="#">apps interface</a>
+                </h4>
+                <p class="text-sm text-black-50">
+                  “It is not because things are difficult that we do not dare;
+                  it is because we do not dare that they are difficult.”
+                </p>
+              </article>
+            </div>
+            <div class="col">
+              <article
+                class="service vstack gap-3 max-w col-8 col-md-12 mx-auto"
+              >
+                <h4 class="vstack gap-3 text-capitalize fw-semibold">
+                  <i class="fa-solid fa-rocket fa-xl"></i>
+                  <a class="transition-colors" href="#">graphic design</a>
+                </h4>
+                <p class="text-sm text-black-50">
+                  “It is not because things are difficult that we do not dare;
+                  it is because we do not dare that they are difficult.”
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Numbers -->
+      <section class="section text-white bg-gradient text-center">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-5 gx-md-4">
+            <div class="col">
+              <article>
+                <h5 class="fw-semibold fs-2">2536</h5>
+                <p class="text-capitalize m-0 text-sm">Projects Completed</p>
+              </article>
+            </div>
+            <div class="col">
+              <article>
+                <h5 class="fw-semibold fs-2">6784</h5>
+                <p class="text-capitalize m-0 text-sm">Happy Clients</p>
+              </article>
+            </div>
+            <div class="col">
+              <article>
+                <h5 class="fw-semibold fs-2">2239</h5>
+                <p class="text-capitalize m-0 text-sm">Cups of Coffee</p>
+              </article>
+            </div>
+            <div class="col">
+              <article>
+                <h5 class="fw-semibold fs-2">434</h5>
+                <p class="text-capitalize m-0 text-sm">Real Professionals</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- My Projects -->
+      <section id="my-projects" class="section text-center">
+        <div class="container vstack gap-5">
+          <div class="col-9 mx-auto">
+            <h2 class="section-title">Our Latest Featured Projects</h2>
+            <p class="text-sm text-black-50">
+              Who are in extremely love with eco friendly system.
+            </p>
+          </div>
+
+          <!-- Filters Buttons -->
+          <ul
+            class="list-unstyled filters-btns hstack gap-1 justify-content-center d-none d-md-flex"
+          >
+            <li>
+              <button
+                data-filter="all"
+                class="text-uppercase filter-btn btn text-sm fw-semibold active"
+              >
+                all
+              </button>
+            </li>
+            <li>
+              <button
+                data-filter="vector"
+                class="text-uppercase filter-btn btn text-sm fw-semibold"
+              >
+                vector
+              </button>
+            </li>
+            <li>
+              <button
+                data-filter="raster"
+                class="text-uppercase filter-btn btn text-sm fw-semibold"
+              >
+                raster
+              </button>
+            </li>
+            <li>
+              <button
+                data-filter="ui_ux"
+                class="text-uppercase filter-btn btn text-sm fw-semibold"
+              >
+                ui/ux
+              </button>
+            </li>
+            <li>
+              <button
+                data-filter="printing"
+                class="text-uppercase filter-btn btn text-sm fw-semibold"
+              >
+                printing
+              </button>
+            </li>
+          </ul>
+
+          <!-- Filter Buttons - Mobile -->
+          <div class="dropdown d-md-none">
+            <button
+              class="btn btn-primary dropdown-toggle col-6"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Filters
+            </button>
+            <ul class="dropdown-menu col-6">
+              <li>
+                <button
+                  data-filter="all"
+                  class="text-uppercase filter-btn btn text-sm fw-semibold active"
+                >
+                  all
+                </button>
+              </li>
+              <li>
+                <button
+                  data-filter="vector"
+                  class="text-uppercase filter-btn btn text-sm fw-semibold"
+                >
+                  vector
+                </button>
+              </li>
+              <li>
+                <button
+                  data-filter="raster"
+                  class="text-uppercase filter-btn btn text-sm fw-semibold"
+                >
+                  raster
+                </button>
+              </li>
+              <li>
+                <button
+                  data-filter="ui_ux"
+                  class="text-uppercase filter-btn btn text-sm fw-semibold"
+                >
+                  ui/ux
+                </button>
+              </li>
+              <li>
+                <button
+                  data-filter="printing"
+                  class="text-uppercase filter-btn btn text-sm fw-semibold"
+                >
+                  printing
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Projects -->
+          <section id="projects">
+            <div class="row row-cols-1 row-cols-md-3 gy-4 gx-md-4">
+              <div class="col project-card" data-cat="vector">
+                <article class="vstack gap-3">
+                  <section class="position-relative">
+                    <div
+                      class="img-overlay d-flex align-items-center justify-content-center"
+                    >
+                      <a href="#" class="d-block">
+                        <img src="assets/imgs/projects/show.webp" alt="show" />
+                      </a>
+                    </div>
+                    <img src="assets/imgs/projects/01.webp" alt="01" />
+                  </section>
+                  <h5 class="text-capitalize m-0 fw-semibold whitespace-nowrap">
+                    2D Vinyl Design
+                  </h5>
+                  <h6
+                    class="text-sm text-black-50 fw-normal m-0 whitespace-nowrap"
+                  >
+                    vector
+                  </h6>
+                </article>
+              </div>
+              <div class="col project-card" data-cat="vector">
+                <article class="vstack gap-3">
+                  <section class="position-relative">
+                    <div
+                      class="img-overlay d-flex align-items-center justify-content-center"
+                    >
+                      <a href="#" class="d-block">
+                        <img src="assets/imgs/projects/show.webp" alt="show" />
+                      </a>
+                    </div>
+                    <img src="assets/imgs/projects/02.webp" alt="01" />
+                  </section>
+                  <h5 class="text-capitalize m-0 fw-semibold whitespace-nowrap">
+                    2D Vinyl Design
+                  </h5>
+                  <h6
+                    class="text-sm text-black-50 fw-normal m-0 whitespace-nowrap"
+                  >
+                    vector
+                  </h6>
+                </article>
+              </div>
+              <div class="col project-card" data-cat="printing">
+                <article class="vstack gap-3">
+                  <section class="position-relative">
+                    <div
+                      class="img-overlay d-flex align-items-center justify-content-center"
+                    >
+                      <a href="#" class="d-block">
+                        <img src="assets/imgs/projects/show.webp" alt="show" />
+                      </a>
+                    </div>
+                    <img src="assets/imgs/projects/03.webp" alt="01" />
+                  </section>
+                  <h5 class="text-capitalize m-0 fw-semibold whitespace-nowrap">
+                    2D Vinyl Design
+                  </h5>
+                  <h6
+                    class="text-sm text-black-50 fw-normal m-0 whitespace-nowrap"
+                  >
+                    vector
+                  </h6>
+                </article>
+              </div>
+              <div class="col project-card" data-cat="raster">
+                <article class="vstack gap-3">
+                  <section class="position-relative">
+                    <div
+                      class="img-overlay d-flex align-items-center justify-content-center"
+                    >
+                      <a href="#" class="d-block">
+                        <img src="assets/imgs/projects/show.webp" alt="show" />
+                      </a>
+                    </div>
+                    <img src="assets/imgs/projects/04.webp" alt="01" />
+                  </section>
+                  <h5 class="text-capitalize m-0 fw-semibold whitespace-nowrap">
+                    2D Vinyl Design
+                  </h5>
+                  <h6
+                    class="text-sm text-black-50 fw-normal m-0 whitespace-nowrap"
+                  >
+                    vector
+                  </h6>
+                </article>
+              </div>
+              <div class="col project-card" data-cat="ui_ux">
+                <article class="vstack gap-3">
+                  <section class="position-relative">
+                    <div
+                      class="img-overlay d-flex align-items-center justify-content-center"
+                    >
+                      <a href="#" class="d-block">
+                        <img src="assets/imgs/projects/show.webp" alt="show" />
+                      </a>
+                    </div>
+                    <img src="assets/imgs/projects/05.webp" alt="01" />
+                  </section>
+                  <h5 class="text-capitalize m-0 fw-semibold whitespace-nowrap">
+                    2D Vinyl Design
+                  </h5>
+                  <h6
+                    class="text-sm text-black-50 fw-normal m-0 whitespace-nowrap"
+                  >
+                    vector
+                  </h6>
+                </article>
+              </div>
+              <div class="col project-card" data-cat="raster">
+                <article class="vstack gap-3">
+                  <section class="position-relative">
+                    <div
+                      class="img-overlay d-flex align-items-center justify-content-center"
+                    >
+                      <a href="#" class="d-block">
+                        <img src="assets/imgs/projects/show.webp" alt="show" />
+                      </a>
+                    </div>
+                    <img src="assets/imgs/projects/06.webp" alt="01" />
+                  </section>
+                  <h5 class="text-capitalize m-0 fw-semibold whitespace-nowrap">
+                    2D Vinyl Design
+                  </h5>
+                  <h6
+                    class="text-sm text-black-50 fw-normal m-0 whitespace-nowrap"
+                  >
+                    vector
+                  </h6>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+        <!--Clients Review-->
+        <section id="reviews" class="section bg-light">
+          <div class="container">
+            <div class="col-9 mx-auto text-center mb-5">
+              <h2 class="section-title">Client’s Feedback About Me</h2>
+              <p class="text-sm text-black-50">
+                It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
+            </div>
+            <div class="swiper2">
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide m-1">
+                  <div class="card mb-3">
+                    <div class="row g-0 ">
+                      <div class="col-md-1 d-flex ">
+                        <img src="assets/imgs/people/1.jpg" class="rounded-circle align-self-baseline flex-wrap m-2" alt="...">
+                      </div>
+                      <div class="col-md-11">
+                        <div class="card-body">
+                          <p class="card-text">A purpose is the eternal condition for success. Every former smoker can tell you
+                            just how hard it is to stop smoking
+                            cigarettes. However.</p>
+                          <h5>Carolyn Craig</h5>
+                          <p class="card-text"><small class="text-muted">CEO at Facebook</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide m-1">
+                  <div class="card mb-3">
+                    <div class="row g-0 ">
+                      <div class="col-md-1 d-flex ">
+                        <img src="assets/imgs/people/5.jpg" class="rounded-circle align-self-baseline flex-wrap m-2 " alt="...">
+                      </div>
+                      <div class="col-md-11">
+                        <div class="card-body">
+                          <p class="card-text">A purpose is the eternal condition for success. Every former smoker can tell you
+                            just how
+                            hard it is to stop smoking
+                            cigarettes. However.</p>
+                          <h5>Carolyn Craig</h5>
+                          <p class="card-text"><small class="text-muted">CEO at Facebook</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide m-1">
+                  <div class="card mb-3">
+                    <div class="row g-0 ">
+                      <div class="col-md-1 d-flex ">
+                        <img src="assets/imgs/people/3.jpg" class="rounded-circle align-self-baseline flex-wrap m-2 " alt="...">
+                      </div>
+                      <div class="col-md-11">
+                        <div class="card-body">
+                          <p class="card-text">A purpose is the eternal condition for success. Every former smoker can tell you
+                            just how
+                            hard it is to stop smoking
+                            cigarettes. However.</p>
+                          <h5>Carolyn Craig</h5>
+                          <p class="card-text"><small class="text-muted">CEO at Facebook</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide m-1">
+                  <div class="card mb-3">
+                    <div class="row g-0 ">
+                      <div class="col-md-1 d-flex ">
+                        <img src="assets/imgs/people/4.jpg" class="rounded-circle align-self-baseline flex-wrap m-2 " alt="...">
+                      </div>
+                      <div class="col-md-11">
+                        <div class="card-body">
+                          <p class="card-text">A purpose is the eternal condition for success. Every former smoker can tell you
+                            just how
+                            hard it is to stop smoking
+                            cigarettes. However.</p>
+                          <h5>Carolyn Craig</h5>
+                          <p class="card-text"><small class="text-muted">CEO at Facebook</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <!-- Price -->
+      <section id="price" class="section container text-center">
+        <div class="container vstack gap-5 ">
+          <div class="col-9 mx-auto">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <p class="text-sm text-black-50">
+              When someone does something that they know that they shouldn’t do, did they.
+            </p>
+          </div> 
+          <!--cards-->
+          <div class="row bg-light row-cols-1 row-cols-md-2 row-cols-lg-4 ">
+           <div class="card-container">
+            <div class="border-0 card price-card pt-5 pb-4 bg-light">
+              <ul class=" list-group list-group-flush overflow-hidden">
+                <li class="list-group-item vstack row bg-light">
+                  <div class="col-6 col-lg-9 align-self-center">
+                    <h1 class="bg-light rounded-circle p-3 borderr ">01</h1>
+                  </div>
+                  <h4 class="section-title-sm">Economy</h4>
+                  <p class="text-sm text-black-50">For the individuals</p>
+                </li>
+                <li class="list-group-item text-sm text-black-50 bg-light">Secure Online Transfer</li>
+                <li class="list-group-item text-sm text-black-50 bg-light">Unlimited Styles for interface</li>
+                <li class="list-group-item text-sm text-black-50 bg-light">Reliable Customer Service</li>
+                <li class="list-group-item text-sm bg-light">
+                  <h2> £199.00</h2>
+                  <a class="price-btn text-uppercase  m-4 btn bg-light" href="#">Buy Now</a>
+                </li>
+              </ul>
+            </div>
+           </div>
+      
+            <div class="card-container">
+              <div class="border-0 card price-card pt-5 pb-4 bg-light">
+                <ul class="list-group list-group-flush overflow-hidden">
+                  <li class="list-group-item vstack row bg-light">
+                    <div class="col-6 col-lg-9 align-self-center">
+                      <h1 class="bg-light rounded-circle p-3 borderr ">02</h1>
+                    </div>
+                    <h4 class="section-title-sm">Business</h4>
+                    <p class="text-sm text-black-50">For the individuals</p>
+                  </li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Secure Online Transfer</li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Unlimited Styles for interface</li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Reliable Customer Service</li>
+                  <li class="list-group-item text-sm bg-light">
+                    <h2> £299.00</h2>
+                    <a class="price-btn text-uppercase p-2 m-4 btn bg-light" href="#">Buy Now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="card-container">
+              <div class="border-0 card price-card pt-5 pb-4 bg-light">
+                <ul class="list-group list-group-flush overflow-hidden">
+                  <li class="list-group-item vstack row bg-light">
+                    <div class="col-6 col-lg-9 align-self-center">
+                      <h1 class="bg-light rounded-circle p-3 borderr ">03</h1>
+                    </div>
+                    <h4 class="section-title-sm">Premium</h4>
+                    <p class="text-sm text-black-50">For the individuals</p>
+                  </li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Secure Online Transfer</li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Unlimited Styles for interface</li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Reliable Customer Service</li>
+                  <li class="list-group-item text-sm bg-light">
+                    <h2> £399.00</h2>
+                    <a class="price-btn text-uppercase p-2 m-4 btn bg-light" href="#">Buy Now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
+            <div class="card-container">
+              <div class="border-0 card price-card pt-5 pb-4 bg-light">
+                <ul class="list-group list-group-flush overflow-hidden">
+                  <li class="list-group-item vstack row bg-light">
+                    <div class="col-6 col-lg-9 align-self-center">
+                      <h1 class="bg-light rounded-circle p-3 borderr ">04</h1>
+                    </div>
+                    <h4 class="section-title-sm">Exclusive</h4>
+                    <p class="text-sm text-black-50">For the individuals</p>
+                  </li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Secure Online Transfer</li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Unlimited Styles for interface</li>
+                  <li class="list-group-item text-sm text-black-50 bg-light">Reliable Customer Service</li>
+                  <li class="list-group-item text-sm bg-light">
+                    <h2> £499.00</h2>
+                    <a class="price-btn text-uppercase p-2 m-4 btn bg-light" href="#">Buy Now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      
+      </section>
+
+      <!--blog-->
+      <section id="blog" class="section bg-light">
+        <div class="container">
+          <div class="col-9 mx-auto text-center mb-5">
+              <h2 class="section-title">Latest Posts From Our Blog</h2>
+              <p class="text-sm text-black-50">
+              You may be a skillful, effective employer but if you don’t trust your personnel and the opposite, then the chances of
+              improving and expanding the business</p>
+          </div>
+
+          <!--blog cards-->
+          <div class="col-11 m-auto">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+              <div>
+                <div class="card blog-card">
+                  <img src="assets/imgs/blog/1.jpg" class="card-img-top " alt="...">
+                  <ul class="list-group list-group-flush justify-content-center overflow-hidden">
+                    <li class="d-flex list-group-item row justify-content-center ">
+                      <div class=" col-6">
+                        <img src="assets/imgs/blog/download.jpg" alt="img">
+                        <h6 class="d-inline">Mark Wiens</h6>
+                      </div>
+                      <div class="d-inline-block col-6">
+                        <p class="text-sm text-black-50 d-inline-block">13th Dec</p>
+                        <i class="fa-regular fa-heart text-black-50-dark"></i><span>15</span>
+                        <i class="fa-regular fa-comment text-black-50-dark"></i><span>04</span>
+                      </div>
+                    </li>
+                    <li class="list-group-item ">
+                      <div class="card-body">
+                        <h6 class="card-title">BREAK THROUGH SELF DOUBT AND FEAR</h6>
+                        <p class="card-text text-sm text-black-50">Dream interpretation has many forms; it can be done be done for the
+                          sake of fun, hobby or can be taken up as a serious
+                          career.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+              <div>
+                <div class="card blog-card">
+                  <img src="assets/imgs/blog/2.jpg" class="card-img-top " alt="...">
+                  <ul class="list-group list-group-flush justify-content-center overflow-hidden">
+                    <li class="d-flex list-group-item row justify-content-center ">
+                      <div class=" col-6">
+                        <img src="assets/imgs/blog/download.jpg" alt="img">
+                        <h6 class="d-inline">Mark Wiens</h6>
+                      </div>
+                      <div class="d-inline-block col-6">
+                        <p class="text-sm text-black-50 d-inline-block">13th Dec</p>
+                        <i class="fa-regular fa-heart text-black-50-dark"></i><span>15</span>
+                        <i class="fa-regular fa-comment text-black-50-dark"></i><span>04</span>
+                      </div>
+                    </li>
+                    <li class="list-group-item ">
+                      <div class="card-body">
+                        <h6 class="card-title">BREAK THROUGH SELF DOUBT AND FEAR</h6>
+                        <p class="card-text text-sm text-black-50">Dream interpretation has many forms; it can be done be done for the
+                          sake of fun, hobby or can be taken up as a serious
+                          career.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            
+              <div>
+                <div class="card blog-card">
+                  <img src="assets/imgs/blog/1.jpg" class="card-img-top " alt="...">
+                  <ul class="list-group list-group-flush justify-content-center overflow-hidden">
+                    <li class="d-flex list-group-item row justify-content-center ">
+                      <div class=" col-6">
+                        <img src="assets/imgs/blog/download.jpg" alt="img">
+                        <h6 class="d-inline">Mark Wiens</h6>
+                      </div>
+                      <div class="d-inline-block col-6">
+                        <p class="text-sm text-black-50 d-inline-block">13th Dec</p>
+                        <i class="fa-regular fa-heart text-black-50-dark"></i><span>15</span>
+                        <i class="fa-regular fa-comment text-black-50-dark"></i><span>04</span>
+                      </div>
+                    </li>
+                    <li class="list-group-item ">
+                      <div class="card-body">
+                        <h6 class="card-title">BREAK THROUGH SELF DOUBT AND FEAR</h6>
+                        <p class="card-text text-sm text-black-50">Dream interpretation has many forms; it can be done be done for the
+                          sake of fun, hobby or can be taken up as a serious
+                          career.
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <!-- Brands -->
+      <section id="brands" class="section bg-gradient">
+        <div class="container">
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <a href="#" class="brand-link d-flex justify-content-center">
+                  <img src="assets/imgs/brands/01.webp" alt="creative" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="brand-link d-flex justify-content-center">
+                  <img src="assets/imgs/brands/02.webp" alt="creative" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="brand-link d-flex justify-content-center">
+                  <img src="assets/imgs/brands/03.webp" alt="creative" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="brand-link d-flex justify-content-center">
+                  <img src="assets/imgs/brands/04.webp" alt="creative" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#" class="brand-link d-flex justify-content-center">
+                  <img src="assets/imgs/brands/05.webp" alt="creative" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="section bg-dark text-white">
+      <div class="container">
+        <div class="row gy-4 gx-sm-4">
+          <div class="col-sm-6 col-lg-5">
+            <section>
+              <h3 class="text-capitalize mb-4 fs-4">about me</h3>
+              <p class="text-sm text-black-50-dark lh-lg">
+                We have tested a number of registry fix and clean utilities and
+                present our top 3 list on our site for your convenience.
+                <br /><br />
+                Copyright ©2022 All rights reserved | This template is made with
+                by <i class="fas fa-heart"></i>
+                <a href="#" class="text-primary-light">Colorlib</a>
+              </p>
+            </section>
+          </div>
+          <div class="col-sm-6 col-lg-5">
+            <section>
+              <h3 class="text-capitalize mb-4 fs-4">newsletter</h3>
+              <p class="text-sm text-black-50-dark lh-lg">
+                Stay updated with our latest trends
+              </p>
+              <form>
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Recipient's username"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon2"
+                  />
+                  <button
+                    type="submit"
+                    class="input-group-text bg-primary-light text-white border-0"
+                    id="basic-addon2"
+                  >
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </div>
+              </form>
+            </section>
+          </div>
+          <div class="col-lg-2">
+            <section>
+              <h3 class="text-capitalize mb-4 fs-4">follow me</h3>
+              <p class="text-sm text-black-50-dark lh-lg">Let us be social</p>
+              <section class="hstack gap-4 text-sm">
+                <a href="#" class="transition-colors">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="transition-colors">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="transition-colors">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="transition-colors">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </section>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/all.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
